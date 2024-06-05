@@ -6,7 +6,13 @@
 /NAME:"UnrealEditor-PGLPCGNodes.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PCGExExampleProject-main\Intermediate\Build\Win64\x64\PCGExExampleProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.h.obj"
-"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PCGExExampleProject-main\Plugins\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLPCGNodes.cpp.obj"
-"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PCGExExampleProject-main\Plugins\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\Default.rc2.res"
-/OUT:"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PCGExExampleProject-main\Plugins\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\UnrealEditor-PGLPCGNodes.lib"
+"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Intermediate\Build\Win64\x64\PGL_Test1Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.obj"
+"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\Module.PGLPCGNodes.cpp.obj"
+"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PCGCreateSplineMesh.cpp.obj"
+"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLCreateTaggedSpline.cpp.obj"
+"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLExportPointsToPCGAsset.cpp.obj"
+"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLExportToFoliage.cpp.obj"
+"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLPCGAssetExporter.cpp.obj"
+"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLPCGNodes.cpp.obj"
+"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\Default.rc2.res"
+/OUT:"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\UnrealEditor-PGLPCGNodes.lib"

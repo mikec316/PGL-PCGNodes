@@ -10,7 +10,8 @@
 			"PGLExportPointsToPCGAsset.cpp.obj",
 			"PGLExportToFoliage.cpp.obj",
 			"PGLPCGAssetExporter.cpp.obj",
-			"PGLPCGNodes.cpp.obj"
+			"PGLPCGNodes.cpp.obj",
+			"PGLPCGNode_SumAttributes.cpp.obj"
 		]
 	}
 }
