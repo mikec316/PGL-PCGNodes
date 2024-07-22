@@ -78,9 +78,16 @@
 /DUE_BUILD_DEVELOPMENT=1
 /DORIGINAL_FILE_NAME="UnrealEditor-PGLPCGNodes.dll"
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
+<<<<<<< Updated upstream
 /DPROJECT_COMPANY_NAME=Nebukam
 /DPROJECT_COPYRIGHT_STRING="Copyright (c) Nebukam"
 /DPROJECT_PRODUCT_NAME="PCGEx Example Project"
 /DPROJECT_PRODUCT_IDENTIFIER=PCGExExampleProject
 /fo "C:\Users\chapp\OneDrive\Documents\Unreal Projects\PCGExExampleProject-main\Plugins\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\Default.rc2.res"
+=======
+/DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
+/DPROJECT_PRODUCT_NAME="Third Person BP Game Template"
+/DPROJECT_PRODUCT_IDENTIFIER=PGL_Test1
+/fo "C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\Default.rc2.res"
+>>>>>>> Stashed changes
 "..\Build\Windows\Resources\Default.rc2"

@@ -14,7 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PGLPCGNODES_PGLCreateTaggedSpline_generated_h
 
+<<<<<<< Updated upstream
 #define FID_Users_chapp_OneDrive_Documents_Unreal_Projects_PGL_Test1_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLCreateTaggedSpline_h_23_INCLASS_NO_PURE_DECLS \
+=======
+#define FID_Users_chapp_OneDrive_Desktop_MikeCurrentProject_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLCreateTaggedSpline_h_23_INCLASS_NO_PURE_DECLS \
+>>>>>>> Stashed changes
 private: \
 	static void StaticRegisterNativesUPGLCreateTaggedSplineSettings(); \
 	friend struct Z_Construct_UClass_UPGLCreateTaggedSplineSettings_Statics; \
@@ -23,7 +27,11 @@ public: \
 	DECLARE_SERIALIZER(UPGLCreateTaggedSplineSettings)
 
 
+<<<<<<< Updated upstream
 #define FID_Users_chapp_OneDrive_Documents_Unreal_Projects_PGL_Test1_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLCreateTaggedSpline_h_23_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Users_chapp_OneDrive_Desktop_MikeCurrentProject_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLCreateTaggedSpline_h_23_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UPGLCreateTaggedSplineSettings(UPGLCreateTaggedSplineSettings&&); \
@@ -35,12 +43,21 @@ public: \
 	PGLPCGNODES_API virtual ~UPGLCreateTaggedSplineSettings();
 
 
+<<<<<<< Updated upstream
 #define FID_Users_chapp_OneDrive_Documents_Unreal_Projects_PGL_Test1_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLCreateTaggedSpline_h_20_PROLOG
 #define FID_Users_chapp_OneDrive_Documents_Unreal_Projects_PGL_Test1_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLCreateTaggedSpline_h_23_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FID_Users_chapp_OneDrive_Documents_Unreal_Projects_PGL_Test1_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLCreateTaggedSpline_h_23_INCLASS_NO_PURE_DECLS \
 	FID_Users_chapp_OneDrive_Documents_Unreal_Projects_PGL_Test1_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLCreateTaggedSpline_h_23_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Users_chapp_OneDrive_Desktop_MikeCurrentProject_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLCreateTaggedSpline_h_20_PROLOG
+#define FID_Users_chapp_OneDrive_Desktop_MikeCurrentProject_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLCreateTaggedSpline_h_23_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Users_chapp_OneDrive_Desktop_MikeCurrentProject_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLCreateTaggedSpline_h_23_INCLASS_NO_PURE_DECLS \
+	FID_Users_chapp_OneDrive_Desktop_MikeCurrentProject_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLCreateTaggedSpline_h_23_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -48,7 +65,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PGLPCGNODES_API UClass* StaticClass<class UPGLCreateTaggedSplineSettings>();
 
 #undef CURRENT_FILE_ID
+<<<<<<< Updated upstream
 #define CURRENT_FILE_ID FID_Users_chapp_OneDrive_Documents_Unreal_Projects_PGL_Test1_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLCreateTaggedSpline_h
+=======
+#define CURRENT_FILE_ID FID_Users_chapp_OneDrive_Desktop_MikeCurrentProject_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLCreateTaggedSpline_h
+>>>>>>> Stashed changes
 
 
 #define FOREACH_ENUM_EPGLCREATETAGGEDSPLINEMODE(op) \

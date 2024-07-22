@@ -5,7 +5,10 @@
 			"PGLExportToFoliage.gen.cpp.obj",
 			"PGLPCGAssetExporter.gen.cpp.obj",
 			"PGLPCGNodes.init.gen.cpp.obj",
+<<<<<<< Updated upstream
 			"PGLPCGNode_SumAttributes.gen.cpp.obj",
+=======
+>>>>>>> Stashed changes
 			"PCGCreateSplineMesh.cpp.obj",
 			"PGLCreateTaggedSpline.cpp.obj",
 			"PGLExportPointsToPCGAsset.cpp.obj",

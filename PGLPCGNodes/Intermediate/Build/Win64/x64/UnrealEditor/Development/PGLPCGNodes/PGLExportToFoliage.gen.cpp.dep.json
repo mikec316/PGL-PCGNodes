@@ -1,21 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-<<<<<<< Updated upstream
-        "Source": "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\plugins\\pgl-pcgnodes\\pglpcgnodes\\source\\pglpcgnodes\\private\\pglpcgnode_sumattributes.cpp",
-        "ProvidedModule": "",
-        "PCH": "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\intermediate\\build\\win64\\x64\\pgl_test1editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
-        "Includes": [
-            "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pglpcgnodes\\definitions.pglpcgnodes.h",
-            "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\plugins\\pgl-pcgnodes\\pglpcgnodes\\source\\pglpcgnodes\\public\\pglpcgnode_sumattributes.h",
-=======
-        "Source": "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\source\\pglpcgnodes\\private\\pglpcgnode_sumattributes.cpp",
+        "Source": "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\pglpcgnodes\\uht\\pglexporttofoliage.gen.cpp",
         "ProvidedModule": "",
         "PCH": "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
             "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pglpcgnodes\\definitions.pglpcgnodes.h",
-            "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\source\\pglpcgnodes\\public\\pglpcgnode_sumattributes.h",
->>>>>>> Stashed changes
+            "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\source\\pglpcgnodes\\public\\pglexporttofoliage.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\pcgelement.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\pcgsettings.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\pcgdata.h",
@@ -38,18 +29,6 @@
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgdeterminismsettings.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\algo\\allof.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgsettings.generated.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\elements\\pcgpointoperationelementbase.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\elements\\pcgtimeslicedelementbase.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\pcgcontext.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\pcgnode.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgnode.generated.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\helpers\\pcgasyncstate.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgcontext.generated.h",
-<<<<<<< Updated upstream
-            "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\pglpcgnodes\\uht\\pglpcgnode_sumattributes.generated.h",
-=======
-            "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\pglpcgnodes\\uht\\pglpcgnode_sumattributes.generated.h",
->>>>>>> Stashed changes
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\data\\pcgpointdata.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\data\\pcgspatialdata.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\elements\\pcgprojectionparams.h",
@@ -66,21 +45,7 @@
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgmetadata.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgspatialdata.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgpointdata.generated.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\pcgmanagedresource.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\public\\ismpartition\\ismcomponentdescriptor.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\ismcomponentdescriptor.generated.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgmanagedresource.generated.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\pcgcomponent.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\graph\\pcgstackcontext.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\utils\\pcgextracapture.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgstackcontext.generated.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgcomponent.generated.h",
-<<<<<<< Updated upstream
-            "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\pglpcgnodes\\uht\\pglpcgnode_sumattributes.gen.cpp"
-=======
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\experimental\\structutils\\source\\structutils\\public\\structutilsmetadata.h",
-            "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\pglpcgnodes\\uht\\pglpcgnode_sumattributes.gen.cpp"
->>>>>>> Stashed changes
+            "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\pglpcgnodes\\uht\\pglexporttofoliage.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\pglpcgnodes\\uht\\pglpcgnodes.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pglpcgnodes\\definitions.pglpcgnodes.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

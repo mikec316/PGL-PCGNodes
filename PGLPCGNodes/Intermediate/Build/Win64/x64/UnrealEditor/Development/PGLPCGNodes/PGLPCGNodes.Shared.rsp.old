@@ -1,5 +1,5 @@
 /I "."
-/I "C:\Users\chapp\OneDrive\Documents\Unreal Projects\PCGExExampleProject-main\Plugins\PGLPCGNodes\Source\PGLPCGNodes\Private"
+/I "C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Plugins\PGL-PCGNodes\PGLPCGNodes\Source\PGLPCGNodes\Private"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode"
 /I "Runtime\CoreUObject\Public"
@@ -290,9 +290,15 @@
 /I "..\Plugins\Experimental\StructUtils\Intermediate\Build\Win64\UnrealEditor\Inc\StructUtils\UHT"
 /I "..\Plugins\Experimental\StructUtils\Source"
 /I "..\Plugins\Experimental\StructUtils\Source\StructUtils\Public"
+<<<<<<< Updated upstream
 /I "C:\Users\chapp\OneDrive\Documents\Unreal Projects\PCGExExampleProject-main\Plugins\PGLPCGNodes\Intermediate\Build\Win64\UnrealEditor\Inc\PGLPCGNodes\UHT"
 /I "C:\Users\chapp\OneDrive\Documents\Unreal Projects\PCGExExampleProject-main\Plugins\PGLPCGNodes\Source"
 /I "C:\Users\chapp\OneDrive\Documents\Unreal Projects\PCGExExampleProject-main\Plugins\PGLPCGNodes\Source\PGLPCGNodes\Public"
+=======
+/I "C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\UnrealEditor\Inc\PGLPCGNodes\UHT"
+/I "C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Plugins\PGL-PCGNodes\PGLPCGNodes\Source"
+/I "C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Plugins\PGL-PCGNodes\PGLPCGNodes\Source\PGLPCGNodes\Public"
+>>>>>>> Stashed changes
 /I "..\Plugins\PCG\Intermediate\Build\Win64\UnrealEditor\Inc\PCGEditor\UHT"
 /I "..\Plugins\PCG\Source\PCGEditor\Public"
 /I "Editor\PlacementMode\Public"

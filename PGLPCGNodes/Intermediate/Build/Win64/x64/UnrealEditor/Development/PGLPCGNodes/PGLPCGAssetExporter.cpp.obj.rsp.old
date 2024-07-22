@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 "C:\Users\chapp\OneDrive\Documents\Unreal Projects\PCGExExampleProject-main\Plugins\PGLPCGNodes\Source\PGLPCGNodes\Private\PGLPCGAssetExporter.cpp"
 /FI"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PCGExExampleProject-main\Intermediate\Build\Win64\x64\PCGExExampleProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
 /FI"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PCGExExampleProject-main\Plugins\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\Definitions.PGLPCGNodes.h"
@@ -6,6 +7,16 @@
 /Fo"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PCGExExampleProject-main\Plugins\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLPCGAssetExporter.cpp.obj"
 /sourceDependencies "C:\Users\chapp\OneDrive\Documents\Unreal Projects\PCGExExampleProject-main\Plugins\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLPCGAssetExporter.cpp.dep.json"
 @"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PCGExExampleProject-main\Plugins\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLPCGNodes.Shared.rsp"
+=======
+"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Source\PGLPCGNodes\Private\PGLPCGAssetExporter.cpp"
+/FI"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Intermediate\Build\Win64\x64\PGL_Test1Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h"
+/FI"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\Definitions.PGLPCGNodes.h"
+/Yu"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Intermediate\Build\Win64\x64\PGL_Test1Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h"
+/Fp"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Intermediate\Build\Win64\x64\PGL_Test1Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.pch"
+/Fo"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLPCGAssetExporter.cpp.obj"
+/sourceDependencies "C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLPCGAssetExporter.cpp.dep.json"
+@"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLPCGNodes.Shared.rsp"
+>>>>>>> Stashed changes
 /Zc:inline
 /nologo
 /Oi

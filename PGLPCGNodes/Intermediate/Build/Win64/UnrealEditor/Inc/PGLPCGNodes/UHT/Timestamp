@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Source\PGLPCGNodes\Public\PGLCreateTaggedSpline.h
 C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Source\PGLPCGNodes\Public\PCGCreateSplineMesh.h
 C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Source\PGLPCGNodes\Public\PGLExportToFoliage.h
 C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Source\PGLPCGNodes\Public\PGLExportPointsToPCGAsset.h
 C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Source\PGLPCGNodes\Public\PGLPCGAssetExporter.h
 C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Source\PGLPCGNodes\Public\PGLPCGNode_SumAttributes.h
+=======
+C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Plugins\PGL-PCGNodes\PGLPCGNodes\Source\PGLPCGNodes\Public\PGLCreateTaggedSpline.h
+C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Plugins\PGL-PCGNodes\PGLPCGNodes\Source\PGLPCGNodes\Public\PCGCreateSplineMesh.h
+C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Plugins\PGL-PCGNodes\PGLPCGNodes\Source\PGLPCGNodes\Public\PGLExportToFoliage.h
+C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Plugins\PGL-PCGNodes\PGLPCGNodes\Source\PGLPCGNodes\Public\PGLExportPointsToPCGAsset.h
+C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Plugins\PGL-PCGNodes\PGLPCGNodes\Source\PGLPCGNodes\Public\PGLPCGAssetExporter.h
+C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Plugins\PGL-PCGNodes\PGLPCGNodes\Source\PGLPCGNodes\Public\PGLPCGNode_SumAttributes.h
+>>>>>>> Stashed changes

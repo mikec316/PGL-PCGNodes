@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 "C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Source\PGLPCGNodes\Private\PGLPCGNode_SumAttributes.cpp"
 /FI"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Intermediate\Build\Win64\x64\PGL_Test1Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h"
 /FI"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\Definitions.PGLPCGNodes.h"
@@ -7,16 +6,6 @@
 /Fo"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLPCGNode_SumAttributes.cpp.obj"
 /sourceDependencies "C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLPCGNode_SumAttributes.cpp.dep.json"
 @"C:\Users\chapp\OneDrive\Documents\Unreal Projects\PGL_Test1\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLPCGNodes.Shared.rsp"
-=======
-"C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Plugins\PGL-PCGNodes\PGLPCGNodes\Source\PGLPCGNodes\Private\PGLPCGNode_SumAttributes.cpp"
-/FI"C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Intermediate\Build\Win64\x64\MyProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\Definitions.PGLPCGNodes.h"
-/Yu"C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Intermediate\Build\Win64\x64\MyProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Intermediate\Build\Win64\x64\MyProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLPCGNode_SumAttributes.cpp.obj"
-/sourceDependencies "C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLPCGNode_SumAttributes.cpp.dep.json"
-@"C:\Users\chapp\OneDrive\Desktop\MikeCurrentProject\Plugins\PGL-PCGNodes\PGLPCGNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\PGLPCGNodes\PGLPCGNodes.Shared.rsp"
->>>>>>> Stashed changes
 /Zc:inline
 /nologo
 /Oi

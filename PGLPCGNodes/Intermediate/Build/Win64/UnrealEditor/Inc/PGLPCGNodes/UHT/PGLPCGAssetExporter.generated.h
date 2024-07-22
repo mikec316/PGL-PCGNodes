@@ -14,7 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PGLPCGNODES_PGLPCGAssetExporter_generated_h
 
+<<<<<<< Updated upstream
 #define FID_Users_chapp_OneDrive_Documents_Unreal_Projects_PGL_Test1_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLPCGAssetExporter_h_9_INCLASS_NO_PURE_DECLS \
+=======
+#define FID_Users_chapp_OneDrive_Desktop_MikeCurrentProject_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLPCGAssetExporter_h_9_INCLASS_NO_PURE_DECLS \
+>>>>>>> Stashed changes
 private: \
 	static void StaticRegisterNativesUPGLPCGAssetExporter(); \
 	friend struct Z_Construct_UClass_UPGLPCGAssetExporter_Statics; \
@@ -23,7 +27,11 @@ public: \
 	DECLARE_SERIALIZER(UPGLPCGAssetExporter)
 
 
+<<<<<<< Updated upstream
 #define FID_Users_chapp_OneDrive_Documents_Unreal_Projects_PGL_Test1_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLPCGAssetExporter_h_9_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Users_chapp_OneDrive_Desktop_MikeCurrentProject_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLPCGAssetExporter_h_9_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPGLPCGAssetExporter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -37,12 +45,21 @@ public: \
 	NO_API virtual ~UPGLPCGAssetExporter();
 
 
+<<<<<<< Updated upstream
 #define FID_Users_chapp_OneDrive_Documents_Unreal_Projects_PGL_Test1_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLPCGAssetExporter_h_6_PROLOG
 #define FID_Users_chapp_OneDrive_Documents_Unreal_Projects_PGL_Test1_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLPCGAssetExporter_h_9_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FID_Users_chapp_OneDrive_Documents_Unreal_Projects_PGL_Test1_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLPCGAssetExporter_h_9_INCLASS_NO_PURE_DECLS \
 	FID_Users_chapp_OneDrive_Documents_Unreal_Projects_PGL_Test1_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLPCGAssetExporter_h_9_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Users_chapp_OneDrive_Desktop_MikeCurrentProject_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLPCGAssetExporter_h_6_PROLOG
+#define FID_Users_chapp_OneDrive_Desktop_MikeCurrentProject_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLPCGAssetExporter_h_9_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Users_chapp_OneDrive_Desktop_MikeCurrentProject_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLPCGAssetExporter_h_9_INCLASS_NO_PURE_DECLS \
+	FID_Users_chapp_OneDrive_Desktop_MikeCurrentProject_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLPCGAssetExporter_h_9_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -50,7 +67,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PGLPCGNODES_API UClass* StaticClass<class UPGLPCGAssetExporter>();
 
 #undef CURRENT_FILE_ID
+<<<<<<< Updated upstream
 #define CURRENT_FILE_ID FID_Users_chapp_OneDrive_Documents_Unreal_Projects_PGL_Test1_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLPCGAssetExporter_h
+=======
+#define CURRENT_FILE_ID FID_Users_chapp_OneDrive_Desktop_MikeCurrentProject_Plugins_PGL_PCGNodes_PGLPCGNodes_Source_PGLPCGNodes_Public_PGLPCGAssetExporter_h
+>>>>>>> Stashed changes
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

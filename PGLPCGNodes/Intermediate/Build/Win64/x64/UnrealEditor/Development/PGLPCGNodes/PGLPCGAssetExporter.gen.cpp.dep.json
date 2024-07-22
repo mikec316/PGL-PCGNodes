@@ -1,21 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-<<<<<<< Updated upstream
-        "Source": "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\plugins\\pgl-pcgnodes\\pglpcgnodes\\source\\pglpcgnodes\\private\\pglpcgassetexporter.cpp",
-        "ProvidedModule": "",
-        "PCH": "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\intermediate\\build\\win64\\x64\\pgl_test1editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
-        "Includes": [
-            "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pglpcgnodes\\definitions.pglpcgnodes.h",
-            "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\plugins\\pgl-pcgnodes\\pglpcgnodes\\source\\pglpcgnodes\\public\\pglpcgassetexporter.h",
-=======
-        "Source": "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\source\\pglpcgnodes\\private\\pglpcgassetexporter.cpp",
+        "Source": "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\pglpcgnodes\\uht\\pglpcgassetexporter.gen.cpp",
         "ProvidedModule": "",
         "PCH": "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
             "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pglpcgnodes\\definitions.pglpcgnodes.h",
             "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\source\\pglpcgnodes\\public\\pglpcgassetexporter.h",
->>>>>>> Stashed changes
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\pcgassetexporter.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\pcgdataasset.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\pcgdata.h",
@@ -42,27 +33,7 @@
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgsettings.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgdataasset.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgassetexporter.generated.h",
-<<<<<<< Updated upstream
-            "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\pglpcgnodes\\uht\\pglpcgassetexporter.generated.h",
-=======
-            "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\pglpcgnodes\\uht\\pglpcgassetexporter.generated.h",
->>>>>>> Stashed changes
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\data\\pcgpointdata.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\data\\pcgspatialdata.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\elements\\pcgprojectionparams.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\metadata\\pcgmetadatacommon.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgmetadatacommon.generated.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgprojectionparams.generated.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\metadata\\pcgmetadata.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\metadata\\pcgmetadataattributetraits.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgmetadataattributetraits.generated.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\metadata\\pcgmetadataattributetpl.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\pcgmodule.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\helpers\\pcgmetadatahelpers.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\metadata\\pcgmetadataattribute.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgmetadata.generated.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgspatialdata.generated.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgpointdata.generated.h"
+            "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\pglpcgnodes\\uht\\pglpcgassetexporter.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

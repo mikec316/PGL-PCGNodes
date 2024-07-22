@@ -1,12 +1,21 @@
 {
     "Version": "1.2",
     "Data": {
+<<<<<<< Updated upstream
         "Source": "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\plugins\\pgl-pcgnodes\\pglpcgnodes\\source\\pglpcgnodes\\private\\pglcreatetaggedspline.cpp",
         "ProvidedModule": "",
         "PCH": "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\intermediate\\build\\win64\\x64\\pgl_test1editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
         "Includes": [
             "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pglpcgnodes\\definitions.pglpcgnodes.h",
             "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\plugins\\pgl-pcgnodes\\pglpcgnodes\\source\\pglpcgnodes\\public\\pglcreatetaggedspline.h",
+=======
+        "Source": "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\source\\pglpcgnodes\\private\\pglcreatetaggedspline.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pglpcgnodes\\definitions.pglpcgnodes.h",
+            "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\source\\pglpcgnodes\\public\\pglcreatetaggedspline.h",
+>>>>>>> Stashed changes
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\pcgelement.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\pcgsettings.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\pcgdata.h",
@@ -53,7 +62,11 @@
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\splinecomponent.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgsplinestruct.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgsplinedata.generated.h",
+<<<<<<< Updated upstream
             "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\pglpcgnodes\\uht\\pglcreatetaggedspline.generated.h",
+=======
+            "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\pglpcgnodes\\uht\\pglcreatetaggedspline.generated.h",
+>>>>>>> Stashed changes
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\pcgcomponent.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\source\\pcg\\public\\pcgnode.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcgnode.generated.h",
@@ -76,7 +89,11 @@
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\pcg\\intermediate\\build\\win64\\unrealeditor\\inc\\pcg\\uht\\pcghelpers.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+<<<<<<< Updated upstream
             "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\pglpcgnodes\\uht\\pglcreatetaggedspline.gen.cpp"
+=======
+            "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\pglpcgnodes\\uht\\pglcreatetaggedspline.gen.cpp"
+>>>>>>> Stashed changes
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

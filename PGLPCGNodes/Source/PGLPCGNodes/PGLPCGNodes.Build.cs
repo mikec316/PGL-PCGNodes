@@ -50,6 +50,7 @@ public class PGLPCGNodes : ModuleRules
 				"Voronoi",
 				"Foliage",
 				"PCG",
+				"PCGExtendedToolkit",
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);

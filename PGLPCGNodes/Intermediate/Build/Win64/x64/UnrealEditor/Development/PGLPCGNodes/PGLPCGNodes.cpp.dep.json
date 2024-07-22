@@ -1,12 +1,21 @@
 {
     "Version": "1.2",
     "Data": {
+<<<<<<< Updated upstream
         "Source": "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\plugins\\pgl-pcgnodes\\pglpcgnodes\\source\\pglpcgnodes\\private\\pglpcgnodes.cpp",
         "ProvidedModule": "",
         "PCH": "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\intermediate\\build\\win64\\x64\\pgl_test1editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
         "Includes": [
             "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pglpcgnodes\\definitions.pglpcgnodes.h",
             "c:\\users\\chapp\\onedrive\\documents\\unreal projects\\pgl_test1\\plugins\\pgl-pcgnodes\\pglpcgnodes\\source\\pglpcgnodes\\public\\pglpcgnodes.h"
+=======
+        "Source": "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\source\\pglpcgnodes\\private\\pglpcgnodes.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pglpcgnodes\\definitions.pglpcgnodes.h",
+            "c:\\users\\chapp\\onedrive\\desktop\\mikecurrentproject\\plugins\\pgl-pcgnodes\\pglpcgnodes\\source\\pglpcgnodes\\public\\pglpcgnodes.h"
+>>>>>>> Stashed changes
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

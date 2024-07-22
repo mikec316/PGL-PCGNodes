@@ -1,6 +1,7 @@
 {
 	"RemapUnityFiles": 
 	{
+<<<<<<< Updated upstream
 		"Module.PGLPCGNodes.cpp.obj": [
 			"PGLExportToFoliage.gen.cpp.obj",
 			"PGLPCGAssetExporter.gen.cpp.obj",
@@ -13,5 +14,7 @@
 			"PGLPCGNodes.cpp.obj",
 			"PGLPCGNode_SumAttributes.cpp.obj"
 		]
+=======
+>>>>>>> Stashed changes
 	}
 }

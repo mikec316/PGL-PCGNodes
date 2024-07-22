@@ -5,6 +5,10 @@
 #include "PCGManagedResource.h"
 #include "PCGPin.h"
 #include "PCGComponent.h"
+<<<<<<< Updated upstream
+=======
+#include "StructUtilsMetadata.h"
+>>>>>>> Stashed changes
 
 #include UE_INLINE_GENERATED_CPP_BY_NAME(PGLPCGNode_SumAttributes)
 
@@ -78,6 +82,7 @@ bool FPGLSumAttributesNodeElement::ExecuteInternal(FPCGContext* Context) const
         }
 
         // Initialize new point data and metadata
+<<<<<<< Updated upstream
         UPCGPointData* NewPointData = NewObject<UPCGPointData>(Context->SourceComponent->GetWorld());
         NewPointData->InitializeFromData(PointData, PointData->ConstMetadata());
         UPCGMetadata* MutableMetadata = NewPointData->MutableMetadata();
@@ -86,6 +91,16 @@ bool FPGLSumAttributesNodeElement::ExecuteInternal(FPCGContext* Context) const
 
         MutableMetadata->CreateDoubleAttribute(FName(*OutputAttributeName), 0.0, true, true);
         FPCGMetadataAttribute<double>* OutputAttribute = MutableMetadata->GetMutableTypedAttribute<double>(FName(*OutputAttributeName));
+=======
+        UPCGPointData* OutPointData = NewObject<UPCGPointData>(Context->SourceComponent->GetWorld());;
+        OutPointData->InitializeFromData(PointData, PointData->ConstMetadata());
+        UPCGMetadata* OutMetadata = OutPointData->MutableMetadata();
+        TArray<FPCGPoint>& NewPoints = OutPointData->GetMutablePoints();
+        NewPoints = Points;
+
+        OutMetadata->CreateDoubleAttribute(FName(*OutputAttributeName), 0.0, true, true);
+        FPCGMetadataAttribute<double>* OutputAttribute = OutMetadata->GetMutableTypedAttribute<double>(FName(*OutputAttributeName));
+>>>>>>> Stashed changes
         if (!OutputAttribute)
         {
             PCGE_LOG(Error, GraphAndLog, LOCTEXT("NullAttribute", "Failed to get mutable double attribute"));
@@ -94,7 +109,24 @@ bool FPGLSumAttributesNodeElement::ExecuteInternal(FPCGContext* Context) const
 
         for (FPCGPoint& Point : NewPoints)
         {
+<<<<<<< Updated upstream
             double Sum = 0.0;
+=======
+            // Ensure metadata entry is valid
+            if (Point.MetadataEntry == PCGInvalidEntryKey)
+            {
+                Point.MetadataEntry = OutMetadata->AddEntry();
+                if (Point.MetadataEntry == PCGInvalidEntryKey)
+                {
+                    PCGE_LOG(Warning, GraphAndLog, LOCTEXT("InvalidMetadataEntry", "Invalid metadata entry key for point"));
+                    continue;
+                }
+            }
+
+            double Sum = 0.0;
+            bool HasValidAttributes = false;
+
+>>>>>>> Stashed changes
             const UPCGMetadata* Metadata = PointData->ConstMetadata();
             for (const FString& AttributeName : AttributeNames)
             {
@@ -104,6 +136,7 @@ bool FPGLSumAttributesNodeElement::ExecuteInternal(FPCGContext* Context) const
                     if (AttributeBase->GetTypeId() == PCG::Private::MetadataTypes<double>::Id)
                     {
                         const FPCGMetadataAttribute<double>* Attribute = static_cast<const FPCGMetadataAttribute<double>*>(AttributeBase);
+<<<<<<< Updated upstream
                         if (Attribute->GetValueFromItemKey(Point.MetadataEntry) != PCGInvalidEntryKey)
                         {
                             Sum += Attribute->GetValue(Point.MetadataEntry);
@@ -111,6 +144,18 @@ bool FPGLSumAttributesNodeElement::ExecuteInternal(FPCGContext* Context) const
                         else
                         {
                             PCGE_LOG(Warning, GraphAndLog, FText::Format(LOCTEXT("InvalidAttributeKey", "Invalid attribute key for attribute: {0}"), FText::FromString(AttributeName)));
+=======
+                        if (Attribute->GetValueKey(Point.MetadataEntry) != PCGInvalidEntryKey)
+                        {
+                            Sum += Attribute->GetValueFromItemKey(Point.MetadataEntry);
+                            HasValidAttributes = true;
+                        }
+                        else
+                        {
+                            // Call InitializeOnSet to ensure the metadata entry is initialized
+                            OutMetadata->InitializeOnSet(Point.MetadataEntry);
+                            Sum += Attribute->GetValue(Point.MetadataEntry);
+>>>>>>> Stashed changes
                         }
                     }
                     else
@@ -123,14 +168,34 @@ bool FPGLSumAttributesNodeElement::ExecuteInternal(FPCGContext* Context) const
                     PCGE_LOG(Warning, GraphAndLog, FText::Format(LOCTEXT("AttributeNotFound", "Attribute {0} not found"), FText::FromString(AttributeName)));
                 }
             }
+<<<<<<< Updated upstream
             OutputAttribute->SetValue(Point.MetadataEntry, Sum);
         }
         NewPointData->GetMutablePoints() = NewPoints; // Use the updated points directly
         FPCGTaggedData& Output = Outputs.Emplace_GetRef();
         Output.Data = NewPointData;
+=======
+
+            if (HasValidAttributes)
+            {
+                OutputAttribute->SetValue(Point.MetadataEntry, Sum);
+            }
+            else
+            {
+                PCGE_LOG(Warning, GraphAndLog, FText::Format(LOCTEXT("NoValidAttributes", "No valid attributes found for point with metadata entry {0}"), FText::AsNumber(Point.MetadataEntry)));
+            }
+        }
+
+        FPCGTaggedData& Output = Outputs.Emplace_GetRef();
+        Output.Data = OutPointData;
+>>>>>>> Stashed changes
     }
 
     return true;
 }
 
+<<<<<<< Updated upstream
 #undef LOCTEXT_NAMESPACE
+=======
+#undef LOCTEXT_NAMESPACE
+>>>>>>> Stashed changes
