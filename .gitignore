@@ -1,0 +1,23 @@
+# Binaries
+PGLPCGNodes/Binaries/
+
+# Intermediate build files
+PGLPCGNodes/Intermediate/
+
+# Config (generated)
+PGLPCGNodes/Config/
+
+# Content (UAssets, not source code)
+PGLPCGNodes/Content/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE / editor files
+.vs/
+.vscode/
+*.suo
+*.opensdf
+*.sdf
+*.user
