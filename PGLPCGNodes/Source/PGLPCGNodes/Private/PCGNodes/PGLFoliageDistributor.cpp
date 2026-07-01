@@ -7,7 +7,7 @@
 
 #define LOCTEXT_NAMESPACE "PGLFoliageDistributor"
 #include "DataTypes/PVMeshData.h"
-#include "DataTypes/PVFoliageMeshData.h"
+#include "DataTypes/PVFoliageData.h"   // UPVFoliageData, FPVDataTypeInfoFoliage (was PVFoliageMeshData.h pre-5.8)
 #include "GeometryCollection/ManagedArrayCollection.h"
 #include "Facades/PVAttributesNames.h"
 #include "Helpers/PCGHelpers.h"
@@ -71,7 +71,7 @@ FPCGDataTypeIdentifier UPGLFoliageDistributorSettings::GetInputPinTypeIdentifier
 
 FPCGDataTypeIdentifier UPGLFoliageDistributorSettings::GetOutputPinTypeIdentifier() const
 {
-	return FPCGDataTypeIdentifier{ FPVDataTypeInfoFoliageMesh::AsId() };
+	return FPCGDataTypeIdentifier{ FPVDataTypeInfoFoliage::AsId() };
 }
 
 FPCGElementPtr UPGLFoliageDistributorSettings::CreateElement() const

@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright by Procgen Labs Ltd. All Rights Reserved.
 
 #pragma once
 

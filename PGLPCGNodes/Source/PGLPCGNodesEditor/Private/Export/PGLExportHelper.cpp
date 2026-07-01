@@ -7,7 +7,7 @@
 #include "ObjectTools.h"
 #include "PackageTools.h"
 #include "PlanarCut.h"
-#include "PVExportParams.h"
+#include "Params/PVExportParams.h"
 #include "PVWindSettings.h"
 #include "SkinnedAssetCompiler.h"
 #include "StaticMeshCompiler.h"
@@ -1065,11 +1065,14 @@ EExportResult PGL::Export::ExportCollectionAsMesh(
 				RF_Public | RF_Standalone | RF_Transactional);
 		}
 
+		// bShouldExportFoliage moved out of FPVExportParams in UE 5.8 (engine now
+		// carries it on PVExporter::FExportEntry instead). Match the engine default.
+		constexpr bool bShouldExportFoliage = true;
 		bSuccess = ExportCollectionToStaticMesh(
 			ExportMesh,
 			Collection,
 			ExportParams.NaniteShapePreservation,
-			ExportParams.bShouldExportFoliage,
+			bShouldExportFoliage,
 			ExportParams.bCollision,
 			ModifiedPackages,
 			StatusReportCallback);
@@ -1123,13 +1126,15 @@ EExportResult PGL::Export::ExportCollectionAsMesh(
 			ModifiedPackages.Add(PhysicsPackage);
 		}
 
+		// See note above re: bShouldExportFoliage in UE 5.8.
+		constexpr bool bShouldExportFoliage = true;
 		bSuccess = ExportCollectionToSkeletalMesh(
 			ExportMesh,
 			Collection,
 			ExportParams.NaniteShapePreservation,
 			ExportParams.WindSettings,
 			PhysicsAsset,
-			ExportParams.bShouldExportFoliage,
+			bShouldExportFoliage,
 			ExportParams.CollisionGeneration,
 			ModifiedPackages,
 			StatusReportCallback);

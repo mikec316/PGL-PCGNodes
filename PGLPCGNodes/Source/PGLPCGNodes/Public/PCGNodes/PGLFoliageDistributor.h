@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "PCGNodes/PGLBaseSettings.h"
-#include "PVFloatRamp.h"
+#include "Utils/PVFloatRamp.h"
 #include "Implementations/PVFoliage.h"   // EPhyllotaxyType, EPhyllotaxyFormation
 #include "PGLFoliageDistributor.generated.h"
 
@@ -16,7 +16,7 @@
  * through the output collection.
  *
  * Input : UPVMeshData         (from Mesh Builder)
- * Output: UPVFoliageMeshData  (foliage instances ready for spawning)
+ * Output: UPVFoliageData      (foliage instances ready for spawning)
  */
 UCLASS(BlueprintType, ClassGroup = (Procedural))
 class PGLPCGNODES_API UPGLFoliageDistributorSettings : public UPGLBaseSettings
@@ -176,22 +176,17 @@ public:
 	int32 RandomSeed = 123456;
 
 	// ---- Condition Settings ----
-	// These must match PVE's UPVFoliageDistributorSettings so they are
-	// copied to the PVE settings object during delegation.  PVE's
-	// ExecuteInternal mutates them before calling DistributeFoliage.
-
-	UPROPERTY(EditAnywhere, Category="ConditionSettings",
-		meta=(ShowOnlyInnerProperties, EditCondition="OverrideDistribution"))
-	FPVFoliageDistributionConditions Conditions;
-
-	UPROPERTY()
-	FPVFoliageDistributionConditions DefaultConditions;
-
-	UPROPERTY()
-	FPVFoliageDistributionConditions CustomConditions;
-
-	UPROPERTY()
-	bool bCustomConditionSet = false;
+	// NOTE (UE 5.8 PVE update): PVE restructured UPVFoliageDistributorSettings.
+	// The old flat `Conditions` (FPVFoliageDistributionConditions) property — and
+	// FPVFoliageDistributionConditions itself — no longer exist. They were replaced
+	// by `ConditionSettings` (FPVDistributionConditionParams) plus a Mode enum and
+	// the Parametric/HormoneBased/Vector param groups (see PVDistributionParams.h).
+	// The stale mirror members were removed here to restore compilation.
+	//
+	// This entire node still mirrors PVE's OLD flat property layout, so the
+	// name-based property copy in ExecuteInternal now matches only `RandomSeed` and
+	// silently drops the rest. A full re-port to the new grouped layout is required
+	// for the node to behave correctly again.
 };
 
 

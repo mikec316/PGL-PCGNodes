@@ -138,7 +138,8 @@ bool FPVViewportMeshElement::ExecuteInternal(FPCGContext* Context) const
 	TManagedArray<float>&     HullGA    = Collection.AddAttribute<float>    (PVA::HullGradient,       PVG::PointGroup);
 	TManagedArray<float>&     TrunkGA   = Collection.AddAttribute<float>    (PVA::MainTrunkGradient,  PVG::PointGroup);
 	TManagedArray<float>&     GroundGA  = Collection.AddAttribute<float>    (PVA::GroundGradient,     PVG::PointGroup);
-	TManagedArray<float>&     BranchGA  = Collection.AddAttribute<float>    (PVA::BranchGradient,     PVG::PointGroup);
+	// BranchGradient was removed from PV::AttributeNames in UE 5.8 — downstream PVE
+	// nodes now compute it on demand via PV::AttributesHelper::GetBranchPointBranchGradient.
 	TManagedArray<float>&     PlantGA   = Collection.AddAttribute<float>    (PVA::PlantGradient,      PVG::PointGroup);
 	TManagedArray<int32>&     BudNumA   = Collection.AddAttribute<int32>    (PVA::BudNumber,          PVG::PointGroup);
 	TManagedArray<float>&     NjordA    = Collection.AddAttribute<float>    (PVA::NjordPixelIndex,    PVG::PointGroup);
@@ -168,7 +169,6 @@ bool FPVViewportMeshElement::ExecuteInternal(FPCGContext* Context) const
 			HullGA  [pi] = 0.f;
 			TrunkGA [pi] = 0.f;
 			GroundGA[pi] = 0.f;
-			BranchGA[pi] = static_cast<float>(vi);
 			PlantGA [pi] = 0.f;
 			BudNumA [pi] = 0;
 			NjordA  [pi] = 0.f;

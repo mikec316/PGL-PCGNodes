@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "PCGNodes/PGLBaseSettings.h"
-#include "PVFloatRamp.h"
+#include "Utils/PVFloatRamp.h"
 #include "Engine/Texture2D.h"
 #include "PGLMeshBuilder.generated.h"
 

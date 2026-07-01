@@ -17,7 +17,8 @@ public class PGLPCGNodesEditor : ModuleRules
 		
 		PrivateIncludePaths.AddRange(
 			new string[] {
-				// ... add other private include paths required here ...
+				System.IO.Path.Combine(GetModuleDirectory("VoxelGraph"), "Private"), // FVoxelGraphCompiler internals
+				System.IO.Path.Combine(GetModuleDirectory("PCG"), "Internal"),       // IPCGNodeSourceTextProvider (needed by PCGComputeSource.h)
 			}
 			);
 			
@@ -36,6 +37,7 @@ public class PGLPCGNodesEditor : ModuleRules
 				"UnrealEd",
                 "Voxel",
 				"VoxelCore",
+				"VoxelCoreEditor",
 				"VoxelGraph",
 				"EditorScriptingUtilities",
 				"ScriptableEditorWidgets",
@@ -62,6 +64,7 @@ public class PGLPCGNodesEditor : ModuleRules
 				"PCG",
 				"ZoneGraph",
 				"PGLPCGNodes",
+				"PGLExtended",          // For Sculpting/PGLVoxelBlueprintLibrary.h used by PGLPCGScriptableTool
 				"PCGEditor",            // FPCGEditor, UPCGEditorGraphSchema, SPCGEditorViewport
 				"AssetDefinition",      // UAssetDefinitionDefault
 				"AssetTools",           // UFactory infrastructure
@@ -78,8 +81,9 @@ public class PGLPCGNodesEditor : ModuleRules
 				"PlanarCut",            // ConvertGeometryCollectionToDynamicMesh
 				"GeometryCollectionEngine", // FGeometryCollection
 				"Chaos",                // FManagedArrayCollection, physics assets
-				"SkeletalMeshDescription" // Skeletal mesh export support
-				// ... add private dependencies that you statically link with here ...
+				"SkeletalMeshDescription", // Skeletal mesh export support
+				"ComputeFramework",       // UComputeSource base class for PCG Compute
+				"ContentBrowser"          // UContentBrowserAssetContextMenuContext for VoxelToHLSL action
 			}
 			);
 		

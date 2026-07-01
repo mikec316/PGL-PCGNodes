@@ -5,6 +5,13 @@
 #include "EditorUtilities/PGLPCGScriptableTool.h"
 #include "PropertyEditorModule.h"
 
+// Forward declare VoxelToHLSL action registration
+namespace PGLVoxelToHLSLAction
+{
+	void Register();
+	void Unregister();
+}
+
 #define LOCTEXT_NAMESPACE "FPGLPCGNodesEditorModule"
 
 void FPGLPCGEditorNodesModule::StartupModule()
@@ -16,6 +23,9 @@ void FPGLPCGEditorNodesModule::StartupModule()
 		UPGLPCGScriptableToolProperties::StaticClass()->GetFName(),
 		FOnGetDetailCustomizationInstance::CreateStatic(&FPGLSurfaceTypePaletteCustomization::MakeInstance)
 	);
+
+	// Register Voxel-to-HLSL content browser action
+	PGLVoxelToHLSLAction::Register();
 }
 
 void FPGLPCGEditorNodesModule::ShutdownModule()
@@ -29,6 +39,9 @@ void FPGLPCGEditorNodesModule::ShutdownModule()
 			UPGLPCGScriptableToolProperties::StaticClass()->GetFName()
 		);
 	}
+
+	// Unregister Voxel-to-HLSL content browser action
+	PGLVoxelToHLSLAction::Unregister();
 }
 
 #undef LOCTEXT_NAMESPACE

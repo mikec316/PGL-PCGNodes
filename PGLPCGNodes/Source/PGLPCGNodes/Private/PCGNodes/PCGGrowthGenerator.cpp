@@ -574,7 +574,8 @@ bool FPCGGrowthGeneratorElement::ExecuteInternal(FPCGContext* Context) const
 	TManagedArray<float>&     HullGradA    = Collection.AddAttribute<float>    (PVA::HullGradient,       PVG::PointGroup);
 	TManagedArray<float>&     TrunkGradA   = Collection.AddAttribute<float>    (PVA::MainTrunkGradient,  PVG::PointGroup);
 	TManagedArray<float>&     GroundGradA  = Collection.AddAttribute<float>    (PVA::GroundGradient,     PVG::PointGroup);
-	TManagedArray<float>&     BranchGradA  = Collection.AddAttribute<float>    (PVA::BranchGradient,     PVG::PointGroup);
+	// BranchGradient was removed from PV::AttributeNames in UE 5.8 — downstream PVE
+	// nodes now compute it on demand via PV::AttributesHelper::GetBranchPointBranchGradient.
 	TManagedArray<float>&     PlantGradA   = Collection.AddAttribute<float>    (PVA::PlantGradient,      PVG::PointGroup);
 	TManagedArray<int32>&     BudNumA      = Collection.AddAttribute<int32>    (PVA::BudNumber,          PVG::PointGroup);
 	TManagedArray<float>&     NjordA       = Collection.AddAttribute<float>    (PVA::NjordPixelIndex,    PVG::PointGroup);
@@ -730,7 +731,6 @@ bool FPCGGrowthGeneratorElement::ExecuteInternal(FPCGContext* Context) const
 			HullGradA   [pi] = 1.0f;
 			TrunkGradA  [pi] = bIsTrunk ? 1.0f : 0.0f;
 			GroundGradA [pi] = FMath::Clamp(1.0f - PlantGrad, 0.f, 1.f);
-			BranchGradA [pi] = t;
 			PlantGradA  [pi] = PlantGrad;
 			BudNumA     [pi] = 0;
 			NjordA      [pi] = 0.f;
@@ -870,7 +870,6 @@ bool FPCGGrowthGeneratorElement::ExecuteInternal(FPCGContext* Context) const
 				HullGradA   [pi] = 0.f;
 				TrunkGradA  [pi] = 0.f;
 				GroundGradA [pi] = 0.f;
-				BranchGradA [pi] = static_cast<float>(v);
 				PlantGradA  [pi] = 0.f;
 				BudNumA     [pi] = 0;
 				NjordA      [pi] = 0.f;

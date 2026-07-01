@@ -25,12 +25,15 @@ namespace
 }
 
 // =============================================================================
-//  FOBB — Oriented Bounding Box (same as PCGGrowthGenerator.cpp)
+//  FGravityOBB — Oriented Bounding Box. Identical in layout to FOBB in
+//  PCGGrowthGenerator.cpp, but uniquely named: in a unity build every unnamed
+//  namespace in the blob merges into one, so two file-local "FOBB" types would
+//  collide. Keep this name distinct — do NOT rename it back to FOBB.
 // =============================================================================
 namespace
 {
 
-struct FOBB
+struct FGravityOBB
 {
 	FVector3f Center;
 	FVector3f DirX, DirY, DirZ;          // unit axes
@@ -188,7 +191,7 @@ void GeneratePhototropicData(
  */
 void ApplyFrameAvoidance(
 	FVector3f& Position,
-	const FOBB& FrameOBB,
+	const FGravityOBB& FrameOBB,
 	float AvoidStrength,
 	float AvoidMargin)
 {
@@ -224,7 +227,7 @@ void ApplyGravityRecursive(
 	const int32 BranchIndex,
 	const FGravityParams& Params,
 	const TArray<FVector3f>& PhototropicDirections,
-	const FOBB& FrameOBB,
+	const FGravityOBB& FrameOBB,
 	FManagedArrayCollection& OutCollection,
 	FQuat4f TotalDownForce = FQuat4f::Identity,
 	FVector3f PreviousPosition = FVector3f::ZeroVector,
@@ -265,6 +268,18 @@ void ApplyGravityRecursive(
 
 	TManagedArray<FVector3f>& PointPositions = PointFacade.ModifyPositions();
 
+	// FPointFacade::GetPointScaleGradient was removed from the public API in UE 5.8;
+	// read the PointScaleGradient attribute directly off the collection instead.
+	const TManagedArray<float>* PointScaleGradients =
+		OutCollection.FindAttribute<float>(PVA::PointScaleGradient, PVG::PointGroup);
+
+	const auto GetPointScaleGradient = [PointScaleGradients](int32 InPointIndex) -> float
+	{
+		return (PointScaleGradients && PointScaleGradients->IsValidIndex(InPointIndex))
+			? (*PointScaleGradients)[InPointIndex]
+			: 0.0f;
+	};
+
 	// Bud directions — accessed directly since FBudVectorsFacade is not exported
 	TManagedArray<TArray<FVector3f>>* PointBudDirections =
 		OutCollection.FindAttribute<TArray<FVector3f>>(PVA::BudDirection, PVG::PointGroup);
@@ -302,7 +317,7 @@ void ApplyGravityRecursive(
 	{
 		const int32 PointIndex = CurrentBranchPoints[0];
 		FVector3f& Position = PointPositions[PointIndex];
-		const float PScaleGradient = PointFacade.GetPointScaleGradient(PointIndex);
+		const float PScaleGradient = GetPointScaleGradient(PointIndex);
 
 		const FVector3f RelativeDirection = TotalDownForce * (Position - PreviousPosition);
 		const FQuat4f DownForce = CalculateDownForce(
@@ -351,7 +366,7 @@ void ApplyGravityRecursive(
 		const FVector3f Tangent = RelativeDirection.GetUnsafeNormal();
 
 		const FQuat4f DownForce = CalculateDownForce(
-			Tangent, PointIndex, PointFacade.GetPointScaleGradient(PointIndex));
+			Tangent, PointIndex, GetPointScaleGradient(PointIndex));
 		TotalDownForce = DownForce * TotalDownForce;
 
 		// Update foliage attachment points between current and previous LFR
@@ -428,7 +443,7 @@ void ApplyGravityRecursive(
  */
 void ApplyGravity(
 	const FGravityParams& Params,
-	const FOBB& FrameOBB,
+	const FGravityOBB& FrameOBB,
 	FManagedArrayCollection& OutCollection)
 {
 	const PV::Facades::FBranchFacade BranchFacade(OutCollection);
@@ -538,7 +553,7 @@ bool FPGLGravityElement::ExecuteInternal(FPCGContext* Context) const
 	// -------------------------------------------------------------------------
 	//  Read optional Frame Mesh input → extract OBB
 	// -------------------------------------------------------------------------
-	FOBB FrameOBB;
+	FGravityOBB FrameOBB;
 	FString CapturedFrameMeshPath;
 	FTransform CapturedFrameMeshTransform = FTransform::Identity;
 	{

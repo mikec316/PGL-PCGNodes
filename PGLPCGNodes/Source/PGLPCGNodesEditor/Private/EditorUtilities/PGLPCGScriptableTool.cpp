@@ -13,7 +13,7 @@
 #include "Sculpt/Volume/VoxelVolumeSculptBlueprintLibrary.h"
 #include "Sculpt/Volume/VoxelVolumeSculptStamp.h"
 #include "VoxelLayerStack.h"
-#include "Voxel/PGLVoxelBlueprintLibrary.h"
+#include "Sculpting/PGLVoxelBlueprintLibrary.h"
 
 #define LOCTEXT_NAMESPACE "PGLPCGScriptableTool"
 
